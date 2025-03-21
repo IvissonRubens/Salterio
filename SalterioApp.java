@@ -1233,7 +1233,7 @@ public class SalterioApp extends JFrame {
                                 "E ao teu poder cantaremos louvor\n");
                 salmos.put(21, salmo21);
 
-                Map<String, String> salmo22 = new HashMap();
+                Map<String, String> salmo22 = new HashMap<>();
                 salmo22.put("A", "Deus meu, Deus meu, por que tu desamparaste a mim?\n" + //
                                 "Por que se acham longe de minha salvação\n" + //
                                 "Meu grito, meu bramido, que dia e noite a ti\n" + //
@@ -1310,7 +1310,7 @@ public class SalterioApp extends JFrame {
                                 "E às gerações futuras dirão que Deus o fez\n");
                 salmos.put(22, salmo22);
 
-                Map<String, String> salmo23 = new HashMap();
+                Map<String, String> salmo23 = new HashMap<>();
                 salmo23.put("A", "O Senhor é o meu pastor, portanto\n" + //
                                 "Nada me faltará, não terei falta\n" + //
                                 "Deitar-me faz em pastos verdejantes\n" + //
@@ -1838,9 +1838,7 @@ public class SalterioApp extends JFrame {
                                 "Quand me dirigi a ti, clamei, SENHOR:\n" + //
                                 "Clamei por teu socorro\n" + //
                                 "\n" + //
-                                ""
-                                
-                                );
+                                "lsjflsd");
                         salmos.put(31, salmo31);
 
 
@@ -1868,6 +1866,8 @@ public class SalterioApp extends JFrame {
                 salmoFrame.setSize(800, 600);
                 salmoFrame.setLocationRelativeTo(this);
 
+                //create a JFrame for salmo 119
+
                 //JFrame salmoFrame = new Jframe("Salmo" + 119);
                 //salmoFrame.setSize(800, 400);
                 //salmoFrame.setLocationRelativeTo(this);
@@ -1880,7 +1880,7 @@ public class SalterioApp extends JFrame {
                 areaTexto.setWrapStyleWord(true);
                 areaTexto.setLineWrap(true);
                 JScrollPane scrollPane = new JScrollPane(areaTexto);
-                salmoFrame.add(scrollPane, BorderLayout.CENTER);
+                salmoFrame.add(scrollPane, BorderLayout.CENTER);        
 
                 String[] modosDisponiveis = modos.keySet().toArray(new String[0]);
                 if (modosDisponiveis.length > 1) {
