@@ -1826,7 +1826,21 @@ public class SalterioApp extends JFrame {
                                 "\n" + //
                                 "No teu interior, SENHOR,\n" + //
                                 "escondes os tementes:\n" + //
-                                "Dos inimigos a tramar, das\n");
+                                "Dos inimigos a tramar, das\n" + //
+                                "línguas as contendas.\n" + //
+                                "Bendito seja o DEUS que graça engrandecu\n" + //
+                                "Para comigo, então, quando encontrei o mal,\n" + //
+                                "Quando me achei cercado.\n" + //
+                                "\n" + //
+                                "Na minha pressa disse eu: De ti não sou contado;\n" + //
+                                "Fui excluído do SENHOR,\n" + //
+                                "Porém, ouviste a voz, pois a ti supliquei;\n" + //
+                                "Quand me dirigi a ti, clamei, SENHOR:\n" + //
+                                "Clamei por teu socorro\n" + //
+                                "\n" + //
+                                ""
+                                
+                                );
                         salmos.put(31, salmo31);
 
 
