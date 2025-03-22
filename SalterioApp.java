@@ -1838,8 +1838,9 @@ public class SalterioApp extends JFrame {
                                 "Quand me dirigi a ti, clamei, SENHOR:\n" + //
                                 "Clamei por teu socorro\n" + //
                                 "\n" + //
-                                "lsjflsd");
+                                "l");
                         salmos.put(31, salmo31);
+
 
 
 
@@ -1863,19 +1864,20 @@ public class SalterioApp extends JFrame {
                 }
 
                 JFrame salmoFrame = new JFrame("Salmo " + numero);
-                salmoFrame.setSize(800, 600);
+                salmoFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+                salmoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 salmoFrame.setLocationRelativeTo(this);
 
                 //create a JFrame for salmo 119
 
-                //JFrame salmoFrame = new Jframe("Salmo" + 119);
+                //JFrame salmoFrame119 = new Jframe("Salmo" + 119);
                 //salmoFrame.setSize(800, 400);
                 //salmoFrame.setLocationRelativeTo(this);
-
+                
 
 
                 JTextArea areaTexto = new JTextArea();
-                areaTexto.setFont(new Font("Arial", Font.PLAIN, 19));
+                areaTexto.setFont(new Font("Arial", Font.PLAIN, 45));
                 areaTexto.setEditable(false);
                 areaTexto.setWrapStyleWord(true);
                 areaTexto.setLineWrap(true);
