@@ -1838,12 +1838,357 @@ public class SalterioApp extends JFrame {
                                 "Quand me dirigi a ti, clamei, SENHOR:\n" + //
                                 "Clamei por teu socorro\n" + //
                                 "\n" + //
-                                "l");
-                        salmos.put(31, salmo31);
+                                "Vós, santos do SENHOR, lhe\n" + //
+                                "amai; pois os fiéis preserva,\n" + //
+                                "Mas com largueza, retribui\n" + //
+                                "soberbos, orgulhosos.\n" + //
+                                "Mas, fortes sed vós, e o vosso coração\n" + //
+                                "Renove o seu vigor, vós, que esperais em Deus:\n" + //
+                                "Fortalecei-vos todos.\n");
+                salmos.put(31, salmo31);
 
+                Map<String, String> salmo32 = new HashMap<>();
+                salmo32.put("A", "É bem-aventurado ͜ aquele cuja\n" + //
+                                "Iniquidade lhe foi perdoada\n" + //
+                                "Coberta foi a sua transgressão\n" + //
+                                "Sim, foi coberto todo ͜ o seu pecar\n" + //
+                                "Mui bem-aventurado é o homem\n" + //
+                                "A quem Javé não atribui pecado\n" + //
+                                "Dolo em seu espírito não há\n" + //
+                                "Mui bem-aventurado ele é\n" + //
+                                "\n" + //
+                                "Enquanto ͜ os meus pecados eu calava,\n" + //
+                                "Envelheceram todos os meus ossos\n" + //
+                                "O dia todo ͜ estava a gemer\n" + //
+                                "Constantemente, ͜ estava a gemer\n" + //
+                                "Porque, Senhor, a tua mão pesava\n" + //
+                                "Sim, dia ͜ e noite, sobre mim pesava\n" + //
+                                "Em sequidão de ͜ estio se tornou\n" + //
+                                "A minha força, todo o meu vigor\n" + //
+                                "\n" + //
+                                "A ti eu confessei o meu pecado,\n" + //
+                                "Parei de esconder a ͜ iniquidade,\n" + //
+                                "Disse: “Confessarei ao meu Senhor”,\n" + //
+                                "E perdoaste ͜ a minha transgressão\n" + //
+                                "Por isso, todo homem piedoso\n" + //
+                                "Suplicará em tempo de ͜ encontrar-te\n" + //
+                                "Ao transbordarem águas a jorrar,\n" + //
+                                "Elas decerto não o ͜ atingirão\n" + //
+                                "\n" + //
+                                "És meu esconderijo, meu abrigo\n" + //
+                                "E da tribulação tu me preservas\n" + //
+                                "E tu me cercas, ó Senhor meu Deus,\n" + //
+                                "De ͜ alegres cantos de libertação\n" + //
+                                "Eis que darei a ti o meu conselho\n" + //
+                                "Ante ͜ os meus olhos, ante ͜ as minhas vistas\n" + //
+                                "Ensinarei por onde deves ir,\n" + //
+                                "A minha instrução darei a ti\n" + //
+                                "\n" + //
+                                "E não sejais qual mula ou cavalo,\n" + //
+                                "Que são domados com cabresto ͜ e freio,\n" + //
+                                "Porque não têm entendimento ͜ algum\n" + //
+                                "E de ͜ outra sorte não te ͜ atenderão\n" + //
+                                "Muito sofrer há de curtir o ímpio\n" + //
+                                "E ͜ a graça ͜ assiste ͜ a quem em Deus confia\n" + //
+                                "11 Regozijai-vos, justos, no Senhor,\n" + //
+                                "Puros de coração, oh, exultai.");
+                salmo32.put("B", "É mui feliz quem tem perdão da sua transgressão\n" + //
+                                "E cuja iniquidade vil, assim, coberta foi\n" + //
+                                "Feliz aquele em quem não há engano no seu ser,\n" + //
+                                "A quem Javé não imputou jamais pecado algum\n" + //
+                                "\n" + //
+                                "Enquanto eu me calei acerca dos pecados meus\n" + //
+                                "Os ossos dentro em mim envelheceram de gemer,\n" + //
+                                "Pois dia e noite a tua mão pesava sobre mim\n" + //
+                                "E o meu vigor tornou-se qual estio em sequidão\n" + //
+                                "\n" + //
+                                "Então, a ti eu confessei o meu pecado e não\n" + //
+                                "Deixei oculto mal algum e teu perdão ganhei\n" + //
+                                "Eu disse, então, “confessarei a Deus minha transgressão”,\n" + //
+                                "E perdoaste a iniquidade do pecado meu.\n" + //
+                                "\n" + //
+                                "Por isso, todo piedoso a ti suplicará,\n" + //
+                                "Sim, rogará em tempo de poder te encontrar\n" + //
+                                "Ao transbordarem muitas águas, não o atingirão\n" + //
+                                "Tu és esconderijo meu quando em tribulação\n" + //
+                                "\n" + //
+                                "Com júbilos de salvação, me cercas, ó Senhor\n" + //
+                                "Tu cercas-me de alegres cantos de libertação\n" + //
+                                "“Eu te darei a instrução da senda que deves ir\n" + //
+                                "E sob as minhas vistas, pois, conselhos te darei.”\n" + //
+                                "\n" + //
+                                "Cavalo e mula não sejais na sua estupidez,\n" + //
+                                "Pois só com freios e cabrestos vão te obedecer\n" + //
+                                "O ímpio muito sofrimento ainda irá curtir,\n" + //
+                                "Mas quem confia no Senhor misericórdia tem\n" + //
+                                "\n" + //
+                                "O ímpio muito sofrimento ainda irá passar,\n" + //
+                                "Mas quem confia no Senhor misericórdia tem\n" + //
+                                "Oh! Alegrai-vos no Senhor, vós justos de coração\n" + //
+                                "Cantai alegremente a Deus. Ó santos, exultai.");
+                salmos.put(32, salmo32);
 
+                Map<String, String> salmo33 = new HashMap<String, String>();
+                salmo33.put("A", "Exultai no Senhor, vós, ó justos\n" + //
+                                "Sim, aos retos, louvá-lo é bom\n" + //
+                                "Com harpa ao Senhor celebrai-o\n" + //
+                                "No saltério de dez cordas\n" + //
+                                "Cantando ao Senhor louvai\n" + //
+                                "Entoai ao Senhor novo canto\n" + //
+                                "Jubiloso, com arte tangei\n" + //
+                                "Do Senhor a Palavra é mui reta\n" + //
+                                "Todo o seu proceder fiel\n" + //
+                                "\n" + //
+                                "Ele ama a justiça e o direito,\n" + //
+                                "Sua bondade enche a terra, então\n" + //
+                                "Os céus por sua voz se fizeram\n" + //
+                                "Surgiram por sua palavra\n" + //
+                                "As hostes celestiais\n" + //
+                                "Junta em montes, do mar, suas águas\n" + //
+                                "E em reservas os seus vagalhões\n" + //
+                                "Ao Senhor sim temei toda a terra\n" + //
+                                "E do mundo, habitantes seus\n" + //
+                                "\n" + //
+                                "Fez-se tudo por sua palavra\n" + //
+                                "Ordenou, tudo veio a existir\n" + //
+                                "E frustra às nações, seus desígnios\n" + //
+                                "Dos povos os seus intentos\n" + //
+                                "Anula-os, pois, nosso Deus\n" + //
+                                "O conselho de Deus é pra sempre\n" + //
+                                "E os desígnios do seu coração\n" + //
+                                "Perpetuam-se sempre e pra sempre\n" + //
+                                "Sim por todas as gerações\n" + //
+                                "\n" + //
+                                "A nação venturosa é aquela\n" + //
+                                "Cujo Senhor Jeová é o seu Deus\n" + //
+                                "E o povo pra ser sua herança,\n" + //
+                                "O qual Ele o escolheu\n" + //
+                                "O qual Ele o escolheu\n" + //
+                                "Deus, olhando, dos céus, vê os homens\n" + //
+                                "De onde habita, a todos Deus vê\n" + //
+                                "Pois a todos formou os seus corações\n" + //
+                                "E suas obras contempla e vê\n" + //
+                                "\n" + //
+                                "Não há rei que se salve com a força\n" + //
+                                "Das suas tropas. Nem vai se livrar\n" + //
+                                "Com toda a sua força o valente\n" + //
+                                "E o cavalo não garante\n" + //
+                                "Livrar com o seu poder\n" + //
+                                "Eis que os olhos de Deus estão postos\n" + //
+                                "Sobre aqueles que lhe têm temor,\n" + //
+                                "Que esperam na misericórdia\n" + //
+                                "E livrá-los da morte, então\n" + //
+                                "\n" + //
+                                "E na fome conservar-lhes vivos\n" + //
+                                "Nossa alma espera em Deus\n" + //
+                                "Ele é nosso auxílio e escudo\n" + //
+                                "E nele se alegra, pois,\n" + //
+                                "Em Deus, nosso coração,\n" + //
+                                "Pois confiamos no seu santo nome\n" + //
+                                "Sobre nós, seja, pois, ó Senhor,\n" + //
+                                "Tua misericórdia em nós, Senhor,\n" + //
+                                "Pois de ti esperamos nós.");
+                salmos.put(33, salmo33);
 
+                Map<String, String> salmo34 = new HashMap<>();
+                salmo34.put("A", "Bendirei em todo ͜ o tempo ͜ a Deus.\n" + //
+                                "Com meus lábios, sempre ͜ o louvarei.\n" + //
+                                "A minha ͜ alma gloriar-se-á no meu Senhor.\n" + //
+                                "Os humildes hão de escutar\n" + //
+                                "E, com isso, hão de se ͜ alegrar.\n" + //
+                                "Oh! Comigo todos ao seu nome ͜ engrandecei!\n" + //
+                                "\n" + //
+                                "Eu busquei a Deus, que me ͜ acolheu\n" + //
+                                "E livrou-me dos temores meus.\n" + //
+                                "Contemplai a Deus e ͜ iluminados vós sereis.\n" + //
+                                "E vexame vós não sofrereis.\n" + //
+                                "Este ͜ aflito ao Senhor clamou.\n" + //
+                                "Deus o ͜ ouviu e das tribulações o libertou.\n" + //
+                                "\n" + //
+                                "Ao redor de quem a Deus temer,\n" + //
+                                "Estará o anjo do Senhor,\n" + //
+                                "Acampado para o livrar de todo mal.\n" + //
+                                "Oh! Provai e vede que ͜ Ele ͜ é bom,\n" + //
+                                "Sim, provai o quão bondoso ͜ é Deus.\n" + //
+                                "Bem-aventurado ͜ é quem se refugia ͜ em Deus.\n" + //
+                                "\n" + //
+                                "Vós, seus santos, ao Senhor temei.\n" + //
+                                "Nada falta ͜ aos que lhe têm temor.\n" + //
+                                "Bem nenhum há de faltar a quem temer a Deus.\n" + //
+                                "Passam fome ͜ os filhos dos leões,\n" + //
+                                "Mas aos que buscarem ao Senhor\n" + //
+                                "Eis que, para eles, bem nenhum lhes faltará.\n" + //
+                                "\n" + //
+                                "Vinde, filhos, e ͜ escutai a mim,\n" + //
+                                "E ͜ o temor de Deus ensinarei.\n" + //
+                                "Quem deseja vida longa para ver o bem?\n" + //
+                                "Guarda ͜ a tua língua de ͜ enganar,\n" + //
+                                "Deixa ͜ o mal, pratica ͜ o que é bom,\n" + //
+                                "Busca ͜ e te empenha para conseguir a paz.\n" + //
+                                "\n" + //
+                                "Eis que ͜ os olhos do Senhor estão\n" + //
+                                "Sobre ͜ o justo sempre ͜ a repousar;\n" + //
+                                "E ͜ os ouvidos, prontos para ͜ ouvir o seu clamor.\n" + //
+                                "Mas o rosto do Senhor está\n" + //
+                                "Contra ͜ aquele que pratica ͜ o mal\n" + //
+                                "Pra memória sua desta terra extirpar.\n" + //
+                                "\n" + //
+                                "Clama ͜ o justo, ͜ e Deus a escutar.\n" + //
+                                "Das tribulações o vem livrar.\n" + //
+                                "Perto do ͜ oprimido ͜ e quebrantado Deus está.\n" + //
+                                "Muitas são do justo ͜ as aflições,\n" + //
+                                "Mas de todas Deus o livrará,\n" + //
+                                "Preservando todos os seus ossos sem quebrar.\n" + //
+                                "\n" + //
+                                "O ͜ infortúnio ͜ ao ímpio matará;\n" + //
+                                "Quem pratica ͜ o mal irá morrer.\n" + //
+                                "Quem odeia ͜ o justo condenado há de ser.\n" + //
+                                "Dentre ͜ os que confiam no Senhor,\n" + //
+                                "Nenhum deles Deus condenará.\n" + //
+                                "Dos seus servos sua alma Deus resgatará.");
+                salmos.put(34, salmo34);
 
+                Map<String, String> salmo36 = new HashMap<>();
+                salmo36.put("A", "Há no coração do pecador o clamor da transgressão\n" + //
+                                "Diante dos seus olhos não há nenhum temor de Deus\n" + //
+                                "\n" + //
+                                "Aos seus olhos sua transgressão lhe elogia e lhe convence\n" + //
+                                "Que não virão às claras nem detestadas hão de ser\n" + //
+                                "\n" + //
+                                "As palavras de sua boca são só malícia e engano\n" + //
+                                "Renunciou o discernir e a prática do bem\n" + //
+                                "\n" + //
+                                "No seu leito trama perverter, seu caminho não é bom\n" + //
+                                "Não aborrece o mal nem dele pretende se afastar\n" + //
+                                "\n" + //
+                                "A benignidade do Senhor chega até aos altos céus\n" + //
+                                "E até às nuvens tua fidelidade, ó Senhor\n" + //
+                                "\n" + //
+                                "Como os altos montes do Senhor assim é t’ua justiça\n" + //
+                                "Tal qual profundo abismo são os juízos do meu Deus\n" + //
+                                "\n" + //
+                                "Tu preservas homens e animais. Quão preciosa é a tua graça!\n" + //
+                                "Por isso os homens buscam nas tuas asas se abrigar\n" + //
+                                "\n" + //
+                                "Saciados todos hão de estar com a fartura da tua casa\n" + //
+                                "E Tu a todos dás torrente em delícias a beber\n" + //
+                                "\n" + //
+                                "Pois da vida a fonte está em ti. Em tua luz, nós vemos luz\n" + //
+                                "Tua graça e tua justiça sempre estarão sobre os fiéis\n" + //
+                                "\n" + //
+                                "Não me calque o pé do orgulho e nem me repila a mão dos ímpios\n" + //
+                                "Tombaram os obreiros da iniquidade e já não são\n");
+                salmos.put(36, salmo36);
+
+                Map<String, String> salmo37 = new HashMap<>();
+                salmo37.put("A", "Não te revoltes, pois, com malfeitores\n" + //
+                                "Nem queiras invejar quem faz o mal\n" + //
+                                "Qual planta verde murcharão em breve\n" + //
+                                "E como ͜ a relva já definharão.\n" + //
+                                "Na terra ͜ habita ͜ e nutre da verdade\n" + //
+                                "Confia no SENHOR e faze ͜ o bem.\n" + //
+                                "\n" + //
+                                "Do teu SENHOR e DEUS, oh, sim, te ͜ agrades,\n" + //
+                                "E teus desejos DEUS satisfará\n" + //
+                                "E ͜ o teu caminho ao SENHOR entrega,\n" + //
+                                "Confia nele, ͜ o mais Ele fará.\n" + //
+                                "Qual luz avultará tua justiça\n" + //
+                                "E ͜ o teu direito, qual sol a brilhar.\n" + //
+                                "\n" + //
+                                "Descansa, espera ͜ em DEUS e não te ͜ irrites\n" + //
+                                "Por causa do ͜ homem e seu prosperar,\n" + //
+                                "E que ͜ executa seus cruéis desígnios\n" + //
+                                "Despreza ͜ a ira, deixa o furor;\n" + //
+                                "Não te enfades, isto ͜ acabará mal\n" + //
+                                "Será banido todo malfeitor.\n" + //
+                                "\n" + //
+                                "O que espera ͜ em DEUS terá a terra,\n" + //
+                                "Mas o ͜ ímpio, ͜ em breve, não existirá\n" + //
+                                "Procurarás por ele ͜ em seus lugares\n" + //
+                                "E, muito ͜ em breve, não o ͜ encontrarás.\n" + //
+                                "Porém, os mansos herdarão a terra\n" + //
+                                "E, ͜ em grande paz, irão se deleitar.\n" + //
+                                "\n" + //
+                                "Trama o ímpio contra ͜ o homem justo\n" + //
+                                "E contra ele ringe ͜ os dentes seus.\n" + //
+                                "Então, por isso ͜ o Senhor zomba dele\n" + //
+                                "Pois o seu dia vê se ͜ aproximar.\n" + //
+                                "Com arco ͜ e espada, ͜ o ímpio ataca o pobre\n" + //
+                                "Para abater quem anda ͜ em retidão.\n" + //
+                                "\n" + //
+                                "Porém, a ͜ espada que pertence ͜ ao ímpio\n" + //
+                                "Traspassará seu próprio coração,\n" + //
+                                "E os seus arcos lhe serão quebrados.\n" + //
+                                "Despedaçados todos ficarão.\n" + //
+                                "Vale bem mais o pouco de ͜ um só justo\n" + //
+                                "Do que ͜ a fartura que os ímpios têm.\n" + //
+                                "\n" + //
+                                "Pois os seus braços lhe serão quebrados,\n" + //
+                                "Porém aos justos o SENHOR sustém.\n" + //
+                                "Dos homens justos Deus conhece ͜ os dias\n" + //
+                                "E ͜ a sua ͜ herança se ͜ eternizará.\n" + //
+                                "Nos dias maus, não são envergonhados\n" + //
+                                "E ͜ em meio ͜ à fome, hão de se fartar.\n" + //
+                                "\n" + //
+                                "Os ímpios, no entanto, serão mortos,\n" + //
+                                "E ͜ os inimigos do SENHOR serão\n" + //
+                                "Como ͜ as pastagens verdes tão viçosas,\n" + //
+                                "Mas que ͜ em fumaça logo acabarão.\n" + //
+                                "Pede ͜ emprestado ͜ o ímpio, mas não paga,\n" + //
+                                "Porém o justo ͜ é compassivo ͜ e dá.\n" + //
+                                "\n" + //
+                                "Quem Deus bendiz possuirá a terra\n" + //
+                                "Mas os malditos exterminará.\n" + //
+                                "Ao homem bom DEUS firmará os passos\n" + //
+                                "E, ͜ em seu caminho, Ele se compraz;\n" + //
+                                "E, se cair, não ficará prostrado,\n" + //
+                                "Pois o SENHOR segura sua mão.\n" + //
+                                "\n" + //
+                                "Eu já fui moço ͜ e ͜ agora já sou velho,\n" + //
+                                "Desamparado ͜ o justo nunca vi,\n" + //
+                                "Nem mesmo toda ͜ a sua descendência\n" + //
+                                "Como mendigos, a pedir o pão.\n" + //
+                                "É sempre compassivo e empresta,\n" + //
+                                "E sua prole bênção há de ser.\n" + //
+                                "\n" + //
+                                "Do mal te ͜ aparta e ͜ o que ͜ é bom pratica\n" + //
+                                "Será perpétua tua habitação.\n" + //
+                                "Pois o Senhor Deus à justiça ama\n" + //
+                                "Também seus santos nunca deixará\n" + //
+                                "E, para sempre, serão preservados,\n" + //
+                                "Mas do perverso ͜ a prole matará.\n" + //
+                                "\n" + //
+                                "Os homens justos herdarão a terra\n" + //
+                                "E para sempre nela ͜ habitarão.\n" + //
+                                "O homem justo diz sabedoria\n" + //
+                                "Fala ͜ o que é justo a língua do fiel\n" + //
+                                "Tem no seu coração a lei divina\n" + //
+                                "Nunca seus passos hão de vacilar.\n" + //
+                                "\n" + //
+                                "O ímpio ͜ espreita ͜ o justo pra matá-lo.\n" + //
+                                "Mas em suas mãos Deus não o deixará,\n" + //
+                                "Nem o condenará quando julgado.\n" + //
+                                "Em Deus espera ͜ e segue ͜ o seu andar,\n" + //
+                                "Te ͜ exaltará pra possuir a terra;\n" + //
+                                "Os ímpios mortos, então, hás de ver.\n" + //
+                                "\n" + //
+                                "Vi um perverso ímpio prepotente\n" + //
+                                "Qual cedro que ͜ é do Líbano ͜ a crescer\n" + //
+                                "Passei, mas eis que desaparecera\n" + //
+                                "Fui procurá-lo, mas não encontrei\n" + //
+                                "Percebe ͜ o justo, ͜ atenta no ͜ homem reto\n" + //
+                                "Homem de paz posteridade tem.\n" + //
+                                "\n" + //
+                                "Destruição será o fim dos ímpios\n" + //
+                                "Serão exterminados de ͜ uma vez\n" + //
+                                "Vem do SENHOR a salvação dos justos\n" + //
+                                "É fortaleza na tribulação\n" + //
+                                "Deus os ajuda ͜ e ͜ os livrará dos ímpios\n" + //
+                                "Pois salva quem nele se refugiar.");
+                salmos.put(37, salmo37);
+
+                Mapp<String, String> salmo38 = new HashMap<>();
+                salmo38.put("Modo", "Lírico");
         }
 
         private void carregarSalmosIndisponiveis() {
@@ -1868,13 +2213,14 @@ public class SalterioApp extends JFrame {
                 salmoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 salmoFrame.setLocationRelativeTo(this);
 
-                //create a JFrame for salmo 119
+                // create a JFrame for salmo 119
 
-                //JFrame salmoFrame119 = new Jframe("Salmo" + 119);
-                //salmoFrame.setSize(800, 400);
-                //salmoFrame.setLocationRelativeTo(this);
-                
+                JFrame salmoFrame119 = new JFrame("Salmo 119");
+                salmoFrame119.setExtendedState(JFrame.MAXIMIZED_BOTH);
+                salmoFrame119.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                salmoFrame119.setLocationRelativeTo(null); // Centraliza na tela
 
+                salmoFrame119.setVisible(true);
 
                 JTextArea areaTexto = new JTextArea();
                 areaTexto.setFont(new Font("Arial", Font.PLAIN, 45));
@@ -1882,7 +2228,7 @@ public class SalterioApp extends JFrame {
                 areaTexto.setWrapStyleWord(true);
                 areaTexto.setLineWrap(true);
                 JScrollPane scrollPane = new JScrollPane(areaTexto);
-                salmoFrame.add(scrollPane, BorderLayout.CENTER);        
+                salmoFrame.add(scrollPane, BorderLayout.CENTER);
 
                 String[] modosDisponiveis = modos.keySet().toArray(new String[0]);
                 if (modosDisponiveis.length > 1) {
