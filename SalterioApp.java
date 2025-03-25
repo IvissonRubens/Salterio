@@ -1,12 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class SalterioApp extends JFrame {
         private Map<Integer, Map<String, String>> salmos;
@@ -2187,14 +2184,15 @@ public class SalterioApp extends JFrame {
                                 "Pois salva quem nele se refugiar.");
                 salmos.put(37, salmo37);
 
-                Mapp<String, String> salmo38 = new HashMap<>();
-                salmo38.put("Modo", "Lírico");
+                // <String, String> salmo38 = new HashMap<>();
+                // salmo38.put("Modo", "Lírico");
         }
 
         private void carregarSalmosIndisponiveis() {
                 int[] indisponiveis = { 18, 35, 41, 44, 45, 49, 52, 56, 58, 59, 60, 68, 69, 71, 74, 75,
                                 76, 77, 79, 80, 82, 83, 86, 89, 92, 96, 102, 104, 105, 106, 107,
                                 108, 109, 111, 136, 141, 145, 147 };
+
                 for (int num : indisponiveis) {
                         salmosIndisponiveis.add(num);
                 }
@@ -2212,15 +2210,6 @@ public class SalterioApp extends JFrame {
                 salmoFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
                 salmoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 salmoFrame.setLocationRelativeTo(this);
-
-                // create a JFrame for salmo 119
-
-                JFrame salmoFrame119 = new JFrame("Salmo 119");
-                salmoFrame119.setExtendedState(JFrame.MAXIMIZED_BOTH);
-                salmoFrame119.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                salmoFrame119.setLocationRelativeTo(null); // Centraliza na tela
-
-                salmoFrame119.setVisible(true);
 
                 JTextArea areaTexto = new JTextArea();
                 areaTexto.setFont(new Font("Arial", Font.PLAIN, 45));
@@ -2240,7 +2229,7 @@ public class SalterioApp extends JFrame {
                                 areaTexto.setText(modos.get(modoSelecionado));
                         }
                 } else {
-                        areaTexto.setText(modos.get(modosDisponiveis[0]));
+                        areaTexto.setText(modos.get(modosDisponiveis[ABORT]));
                 }
 
                 JPanel panelBotoes = new JPanel();
@@ -2264,5 +2253,5 @@ public class SalterioApp extends JFrame {
 
         public static void main(String[] args) {
                 SwingUtilities.invokeLater(() -> new SalterioApp().setVisible(true));
-        }
+            }
 }
