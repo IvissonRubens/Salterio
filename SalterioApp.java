@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -2218,6 +2219,8 @@ public class SalterioApp extends JFrame {
                 areaTexto.setLineWrap(true);
                 JScrollPane scrollPane = new JScrollPane(areaTexto);
                 salmoFrame.add(scrollPane, BorderLayout.CENTER);
+                salmoFrame.setVisible(true);
+                
 
                 String[] modosDisponiveis = modos.keySet().toArray(new String[0]);
                 if (modosDisponiveis.length > 1) {
@@ -2229,7 +2232,7 @@ public class SalterioApp extends JFrame {
                                 areaTexto.setText(modos.get(modoSelecionado));
                         }
                 } else {
-                        areaTexto.setText(modos.get(modosDisponiveis[ABORT]));
+                        areaTexto.setText(modos.get(modosDisponiveis[0]));
                 }
 
                 JPanel panelBotoes = new JPanel();
