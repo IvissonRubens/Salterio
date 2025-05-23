@@ -1,2 +1,2 @@
 # Salterio
-Eu sou o bixão doido
+Salterio em formato para notebook do projeto soli deo gloria
